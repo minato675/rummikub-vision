@@ -1,0 +1,106 @@
+{
+  "source": "https://universe.roboflow.com/arthurvanmeerbeeck-gmail-com/rummikub-p8akb",
+  "workspace": "arthurvanmeerbeeck-gmail-com",
+  "project": "rummikub-p8akb",
+  "version": 2017,
+  "format": "yolov8",
+  "license": "CC BY 4.0",
+  "imported_at": "2026-07-22T05:29:48.184329+00:00",
+  "counts": {
+    "train": {
+      "images": 1095,
+      "boxes": 11249
+    },
+    "val": {
+      "images": 107,
+      "boxes": 1179
+    },
+    "test": {
+      "images": 53,
+      "boxes": 637
+    }
+  },
+  "class_mapping": {
+    "Black1": "black_1",
+    "Black10": "black_10",
+    "Black11": "black_11",
+    "Black12": "black_12",
+    "Black13": "black_13",
+    "Black2": "black_2",
+    "Black3": "black_3",
+    "Black4": "black_4",
+    "Black5": "black_5",
+    "Black6": "black_6",
+    "Black7": "black_7",
+    "Black8": "black_8",
+    "Black9": "black_9",
+    "Blue1": "blue_1",
+    "Blue10": "blue_10",
+    "Blue11": "blue_11",
+    "Blue12": "blue_12",
+    "Blue13": "blue_13",
+    "Blue2": "blue_2",
+    "Blue3": "blue_3",
+    "Blue4": "blue_4",
+    "Blue5": "blue_5",
+    "Blue6": "blue_6",
+    "Blue7": "blue_7",
+    "Blue8": "blue_8",
+    "Blue9": "blue_9",
+    "Joker": "joker",
+    "Orange1": "orange_1",
+    "Orange10": "orange_10",
+    "Orange11": "orange_11",
+    "Orange12": "orange_12",
+    "Orange13": "orange_13",
+    "Orange2": "orange_2",
+    "Orange3": "orange_3",
+    "Orange4": "orange_4",
+    "Orange5": "orange_5",
+    "Orange6": "orange_6",
+    "Orange7": "orange_7",
+    "Orange8": "orange_8",
+    "Orange9": "orange_9",
+    "Red1": "red_1",
+    "Red10": "red_10",
+    "Red11": "red_11",
+    "Red12": "red_12",
+    "Red13": "red_13",
+    "Red2": "red_2",
+    "Red3": "red_3",
+    "Red4": "red_4",
+    "Red5": "red_5",
+    "Red6": "red_6",
+    "Red7": "red_7",
+    "Red8": "red_8",
+    "Red9": "red_9"
+  },
+  "preprocessing": {
+    "auto-orient": {
+      "enabled": true
+    },
+    "resize": {
+      "width": 640,
+      "format": "Stretch to",
+      "enabled": true,
+      "height": 640
+    }
+  },
+  "augmentation": {
+    "image": {
+      "versions": 3,
+      "enabled": true
+    },
+    "ninety": {
+      "clockwise": true,
+      "enabled": true,
+      "counter-clockwise": true,
+      "upside-down": false
+    },
+    "flip": {
+      "horizontal": true,
+      "vertical": true,
+      "enabled": true
+    }
+  }
+}
