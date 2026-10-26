@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-26",
+  "target": "rummikub-vision",
+  "sources": [
+    {
+      "source": "yolo_boardgame",
+      "target": "rummikub-vision",
+      "default_branch": "master",
+      "source_head": "66f251c5300ed665983957190ea99db27fe71cca",
+      "original_files": 27,
+      "original_refs": [
+        {
+          "ref": "refs/heads/master",
+          "oid": "66f251c5300ed665983957190ea99db27fe71cca",
+          "type": "commit"
+        }
+      ],
+      "commit_count": 1,
+      "lfs_oids": [],
+      "mode": "subtree",
+      "prefix": "experiments/direct-yolo26",
+      "archive_prefix": null,
+      "mapping_exceptions": {}
+    },
+    {
+      "source": "rumi_test",
+      "target": "rummikub-vision",
+      "default_branch": "main",
+      "source_head": "0738e7ea6070075025a0cfb89e38fc5f4ce63738",
+      "original_files": 37,
+      "original_refs": [
+        {
+          "ref": "refs/heads/main",
+          "oid": "0738e7ea6070075025a0cfb89e38fc5f4ce63738",
+          "type": "commit"
+        }
+      ],
+      "commit_count": 1,
+      "lfs_oids": [],
+      "mode": "subtree",
+      "prefix": "experiments/teacher-student",
+      "archive_prefix": null,
+      "mapping_exceptions": {}
+    }
+  ]
+}
