@@ -1,0 +1,2 @@
+ultralytics==8.4.104
+PyYAML==6.0.3
